@@ -43,32 +43,37 @@ const Index = () => {
             PHOTOGRAPHY PACKAGES
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-24">
-            <BookingCard
-              title="Event Photography"
-              duration="2 hours"
-              description="Includes 25 edits • Basic editing included."
-              image={eventImage}
-              imageAlt="Event Photography Package"
-              onBook={() => handleBook("Event Photography")}
-            />
-            <BookingCard
-              title="Birthday Shoot"
-              duration="1 hour"
-              description="35 high-quality edits • Perfect for birthdays, dinners, and parties."
-              image={birthdayImage}
-              imageAlt="Birthday Shoot Package"
-              onBook={() => handleBook("Birthday Shoot")}
-            />
-            <BookingCard
-              title="creative\brand"
-              duration="2 hours"
-              description="Please let me know 2–3 weeks in advance about the day you are trying to book so we can ensure availability."
-              image={creativeImage}
-              imageAlt="Creative/Brand Photography Package"
-              onBook={() => handleBook("creative\brand")}
-            />
-          </div>
+        <div className="space-y-10 mb-24">
+  <BookingCard
+    title="Event photography"
+    duration="2 hours"
+    price="€180"
+    description="Includes: 60+ Edits  • Delivery within 5 business days • 1 locations • Unlimited poses."
+    image={eventImage}
+    imageAlt="Cold Summer Package"
+    onBook={() => handleBook('Cold Summer')}
+  />
+
+  <BookingCard
+    title="Creative shoot"
+    duration="1 hour"
+    price="€100"
+    description="Includes: 35 Editorial pics   • Delivery within 5 business days • 2 locations • 2 outfit changes."
+    image={creativeImage}
+    imageAlt="Editorial Photography Package"
+    onBook={() => handleBook('Editorial Photos')}
+  />
+
+  <BookingCard
+    title="Birthday Shoot"
+    duration="1 hour"
+    price="€85"
+    description="40 high-quality edits • Perfect for birthdays, dinners, and parties. • Basic editing included • Delivery within 5 business days."
+    image={birthdayImage}
+    imageAlt="Birthday Shoot Package"
+    onBook={() => handleBook('Birthday Shoot')}
+  />
+</div>
 
           {/* Late Policy */}
           <div className="bg-secondary p-12 max-w-4xl mx-auto">
@@ -77,10 +82,10 @@ const Index = () => {
             </h3>
             <div className="space-y-4 text-sm leading-relaxed">
               <p>
-                <strong>15 minutes grace period</strong> (anything after 15 is $25).
+                <strong>15 minutes grace period</strong> (anything after 20 is €25).
               </p>
               <p>
-                <strong>Over 30 minutes is $50</strong> (if you can't pay, I will leave and you would have to reschedule).
+                <strong>Over 30 minutes is €45</strong> (if you can't pay, I will leave and you would have to reschedule).
               </p>
               <p className="font-bold mt-6">
                 IN ORDER FOR US TO PROCEED WITH THE PAYMENT, PLEASE READ THE DESCRIPTION FOR EACH PHOTO SHOOT YOU ARE SCHEDULING.
