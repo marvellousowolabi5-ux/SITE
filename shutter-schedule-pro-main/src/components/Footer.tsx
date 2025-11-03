@@ -15,11 +15,11 @@ const Footer = () => {
             <h4 className="text-sm font-bold mb-4 uppercase tracking-wide">Contact</h4>
             <div className="space-y-3">
               <a
-                href="mailto:contact@imarley.com"
+                href="mailto:konansklipz@gmail.com"
                 className="flex items-center text-sm hover:text-primary-foreground/80 transition-colors"
               >
                 <Mail size={16} className="mr-2" />
-                contact@imarley.com
+                konansklipz@gmail.com
               </a>
             </div>
           </div>
@@ -27,20 +27,20 @@ const Footer = () => {
             <h4 className="text-sm font-bold mb-4 uppercase tracking-wide">Follow</h4>
             <div className="space-y-3">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/konansklipz/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center text-sm hover:text-primary-foreground/80 transition-colors"
               >
                 <Instagram size={16} className="mr-2" />
-                @imarley
+                @konanslipz
               </a>
             </div>
           </div>
         </div>
         <div className="border-t border-primary-foreground/20 pt-8 text-center">
           <p className="text-sm text-primary-foreground/60">
-            © {new Date().getFullYear()} IMARLEY Photography. All rights reserved.
+            © {new Date().getFullYear()} Konansklipz Photography. All rights reserved.
           </p>
         </div>
       </div>
