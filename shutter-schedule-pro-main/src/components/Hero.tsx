@@ -11,7 +11,7 @@ const Hero = () => {
       </div>
       <div className="relative z-10 text-center text-white px-4">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tighter">
-          IMARLEY
+          Konans Klipz
         </h1>
         <p className="text-lg md:text-xl lg:text-2xl font-light tracking-wide mb-8">
           EDITORIAL PHOTOGRAPHY
